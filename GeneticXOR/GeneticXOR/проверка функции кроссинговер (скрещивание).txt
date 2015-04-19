@@ -1,0 +1,12 @@
+float err;
+	string parents[GEN/2];
+	string childrens[GEN/2];
+	selection(gens, parents);
+	crossingOver(parents, childrens);
+
+	for (int i = 0; i < GEN/2; ++i)
+	{
+		err = calcError(childrens[i]);
+		cout << endl << "Приспособленность = " << err << endl;
+		cout << "No " << i << " = " << childrens[i];
+	}

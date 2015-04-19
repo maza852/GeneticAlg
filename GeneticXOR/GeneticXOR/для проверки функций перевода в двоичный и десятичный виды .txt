@@ -1,0 +1,17 @@
+/*int a = rand()%257 - 128;
+	string sss = toBinInt(a);
+	cout << a << "\t" << sss << "\t" << toNumberInt(sss) << endl;
+
+	float b = (float)(rand()%100) / 100;
+	string str = toBinFloat(b);
+	cout << b <<"\t"<< str << "\t" << toNumberFloat(str) << endl;
+
+	float n = -1.82;
+	string wes = toBin(n);
+	cout << n << "\t" << wes << "\t" << toNumber(wes) << endl;
+
+	auto foo = [=](int x, int y)
+	{
+		return n+x+y;
+	};
+	cout << foo(1,2);*/

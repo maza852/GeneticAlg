@@ -1,0 +1,10 @@
+float err;
+	string parents[GEN/2];
+	selection(gens, parents);
+
+	for (int i = 0; i < GEN/2; ++i)
+	{
+		err = calcError(parents[i]);
+		cout << endl << "Приспособленность = " << err << endl;
+		cout << "No " << i << " = " << parents[i];
+	}

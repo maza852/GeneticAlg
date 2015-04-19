@@ -1,0 +1,37 @@
+﻿Построение начато 19.04.2015 21:05:55.
+     1>Проект "C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\GeneticXOR\GeneticXOR.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\GeneticXOR.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GeneticXOR.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneticXOR.cpp INeiron.cpp In_Neiron.cpp Internal_Neiron.cpp Out_Neiron.cpp
+         Out_Neiron.cpp
+         Internal_Neiron.cpp
+         INeiron.cpp
+         GeneticXOR.cpp
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(70): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(79): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(89): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(90): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(115): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\марат\documents\visual studio 2012\projects\geneticxor\geneticxor\geneticxor.cpp(173): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+         Создание кода...
+         Компиляция...
+         In_Neiron.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\Debug\GeneticXOR.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\Debug\GeneticXOR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\Debug\GeneticXOR.lib" /MACHINE:X86 Debug\GeneticXOR.obj
+         Debug\INeiron.obj
+         Debug\Internal_Neiron.obj
+         Debug\In_Neiron.obj
+         Debug\Out_Neiron.obj
+         Debug\stdafx.obj
+         GeneticXOR.vcxproj -> C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\Debug\GeneticXOR.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GeneticXOR.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GeneticXOR.lastbuildstate".
+     1>Построение проекта "C:\Users\Марат\Documents\Visual Studio 2012\Projects\GeneticXOR\GeneticXOR\GeneticXOR.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.84
